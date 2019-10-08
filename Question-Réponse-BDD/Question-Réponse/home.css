@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+.container{
+	width: 80%;
+	margin: auto;
+
+}
+
+header{
+	background-image: url(imag.jpg);
+	height: 100vh;
+	background-size: cover;
+	/*background-position: center;
+	*/
+
+}
+.mini{
+	color: #787266;
+	margin-top: 50px;
+	position: absolute;
+}
+.loginbox {
+	position: absolute;
+	top: 20%;
+	
+}
+.loginbox{
+	margin-left: 60px;
+	background-color: rgba(101 ,97 ,86,0.7);
+	width: 500px;
+	padding: 20px;
+
+
+}
+.loginbox h5{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+.loginbox label{
+
+	color: #E75D5A;
+	font-weight: bold;
+}
+
+.loginbox input, .loginbox select {
+	width: 300px;
+	height: 30px;
+}
+
+.loginbox h3.contact{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+
+}
+#submit{
+	width: 100px;
+	height: 40px;
+	margin-left: 30px;
+	background-color: white;
+	color:#E75D5A;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 10px;
+	float: right;
+	border: 1px solid transparent;
+
+
+}
+#submit:hover{
+	cursor: pointer;
+	background-color: #E6CCAB;
+	color: red
+}
+.wrong{
+	font-size: 15px;
+	color: red
+}
+/********************************************/
+.ens{
+margin-top: 10%
+
+}
+.ens h3{
+	color: #E75D5A;
+	margin-bottom: 10px;
+}
+.btnEns{
+	margin: 20px;
+	color: white;
+
+}
+/******************/
+.float{
+	float: right;
+	width: 40%;
+	margin-top: 20%;
+
+
+}
+.float h3{
+	color: red;
+	margin: 10px
+}
+.float input{
+	width: 300px;
+	height: 30px;
+}
